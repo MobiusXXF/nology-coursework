@@ -1,12 +1,16 @@
 function calculateYearsUnilRetirement(event) {
+
   const currentAge = event.target.value;
 
   const yearsleft = 65 - currentAge;
+
   alert("You have " + yearsleft + " years left until you retire.");
 }
 
 function getGreetingInFrench(event) {
+
   const greeting = event.target.value;
+
   let translation = "";
   if (greeting == "hello") {
     translation = "Bonjour";
@@ -15,6 +19,7 @@ function getGreetingInFrench(event) {
   } else {
     translation = "not recognised"
   }
+  
   alert(translation);
 }
 
