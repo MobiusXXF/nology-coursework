@@ -1,0 +1,13 @@
+div {
+    padding: 20px;
+    margin: 40px;
+    background-color: lightgray;
+    border: 2px solid orange;
+    border-radius: 3%;
+    border-style: dotted;
+    width: 25%;
+}
+
+.dropdown {
+    
+}
