@@ -1,0 +1,45 @@
+main {
+    font-size: 15px;
+    text-align: center;
+}
+
+button {
+    font-size: 30px;
+}
+
+.score-app {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5px;
+    height: 154px;
+    width: auto;
+    border: 2px solid black;
+    background-color: aliceblue;
+
+}
+
+.button {
+    height: 154px;
+}
+
+.score {
+display: grid;
+justify-content: center;
+flex-direction: row;
+align-items: center;
+height: 75px;
+width: 150px;
+font-size: 50px;
+border: 1px solid gray;
+background-color: black;
+color: white;
+}
+
+#team1 {
+
+}
+
+#team2 {
+
+}
