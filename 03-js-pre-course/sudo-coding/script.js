@@ -28,7 +28,7 @@ let finalScoreOne = document.getElementById("team1").innerHTML;
 let finalScoreTwo = document.getElementById("team2").innerHTML;
 console.log(finalScore1);
 
-function handleStopGame() {
+function handleStopGame() { // this feature not working yet
     isGameStopped = true;
     document.getElementById("stop").innerHTML = "Game Stopped";
     // if (isGameStopped = true) {
